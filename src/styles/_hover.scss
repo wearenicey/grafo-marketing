@@ -1,0 +1,135 @@
+// Pocetna hover mokapi
+#vizit {
+  .vizit-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#vizit:hover .vizit-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#flajer {
+  .flajer-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#flajer:hover .flajer-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#brosura {
+  .brosura-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#brosura:hover .brosura-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#fascikla {
+  .fascikla-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#fascikla:hover .fascikla-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#memorandumi {
+  .memorandumi-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#memorandumi:hover .memorandumi-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#plakati {
+  .plakati-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#plakati:hover .plakati-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#pvc {
+  .pvc-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#pvc:hover .pvc-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#rollup {
+  .rollup-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#rollup:hover .rollup-hover {
+  display: inline;
+  transition: 2s ease-out;
+}
+
+#baneri {
+  .baneri-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+#baneri:hover .baneri-hover {
+  display: inline;
+  transition: 2s ease-out;
+}

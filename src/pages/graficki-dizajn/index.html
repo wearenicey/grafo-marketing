@@ -1,0 +1,407 @@
+<!-- ========== MAIN ========== -->
+<main id="content" role="main">
+
+	<!-- Hero Section -->
+	<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+		data-options='{direction: "normal"}'>
+		<!-- Apply your Parallax background image here -->
+		<div class="divimage dzsparallaxer--target u-bg-overlay-v3"
+			style="height: 120%; background-image: url({{root}}assets/img/graficki-dizajn/hero.jpg); background-position-x: 50%;">
+		</div>
+		<div class="container">
+			<div class="row justify-content-lg-between height-lg-100vh">
+				<!-- Left Content -->
+				<div class="col-lg-5 d-flex align-items-center align-self-lg-center min-height-600 min-height-lg-auto">
+					<!-- Content -->
+					<div class="position-relative z-index-2">
+						<div class="mb-7">
+							<!-- <span class="d-none d-sm-block btn btn-lg btn-icon btn-white text-primary rounded-circle mb-4">
+						<span class="fas fa-credit-card btn-icon__inner"></span>
+					</span> -->
+							<h1 class="display-4 font-size-md-down-5 text-white font-weight-semi-bold">Grafički <span
+									class="text-warning">Dizajn</span></h1>
+							<p class="font-size-12 text-white-70">Atraktivan, uočljiv i originalan dizajn klijenti prepoznaju kao
+								kvalitet same kompanije. </p>
+						</div>
+
+						<a class="btn btn-warning transition-3d-hover js-go-to" data-compensation="usluge">
+							Pogledajte usluge
+							<span class="fas fa-arrow-right small ml-2"></span>
+						</a>
+					</div>
+					<!-- End Content -->
+				</div>
+				<!-- End Left Content -->
+
+				<!-- Right Content -->
+				<div class="col-lg-5 align-self-center space-2 space-md-3 space-lg-0">
+
+				</div>
+				<!-- End Right Content -->
+			</div>
+		</div>
+
+		<!-- Go to Arrow -->
+		<div class="d-none d-lg-block position-absolute right-0 bottom-0 left-0 text-center mb-5">
+			<a class="js-go-to u-go-to-modern" href="javascript:;" data-target="#usluge" data-type="static">
+				<span class="fas fa-arrow-down u-go-to-modern__inner"></span>
+			</a>
+		</div>
+		<!-- End Go to Arrow -->
+
+		<div class="col-lg-6 gradient-half-fotografija position-absolute top-0 left-0 min-height-600 height-lg-100vh">
+		</div>
+	</div>
+	<!-- End Hero Section -->
+
+	<div id="usluge" style="visibility: hidden; margin-bottom: 4rem;"></div>
+
+	<!-- Description Section -->
+	<div class="container space-2 space-top-md-2">
+		<div class="row">
+			<div class="col-lg-7">
+
+				<div class="col-sm-9 mb-3">
+					<h3 class="h3 font-weight-bold">Dizajn je sastavni deo identiteta svake kompanije i ujedno je promocija
+						njenih proizvoda i usluga.</h3>
+
+				</div>
+				<div class="col-sm-12">
+					<p class="font-size-12">Atraktivan, uočljiv i originalan dizajn klijenti prepoznaju kao kvalitet same
+						kompanije.
+						Grafomarketing tim je tu za Vas od ideje do realizacije. Osmislićemo jedinstven vizuelni identitet
+						Vaše kompanije i kreirati originalna rešenja za Vaš logo, vizit karte, brošure, plakate, kalendare i
+						sve druge promotivne materijale.</p>
+				</div>
+
+				<div class="js-slick-carousel mt-10 u-slick rounded shadow-lg" data-autoplay="true" data-autoplay-speed="4000">
+					<div class="js-slide bg-img-hero-center" style="background-image: url({{root}}assets/img/mockups/img30.jpg);">
+						<div class="space-5">
+						</div>
+					</div>
+					<div class="js-slide bg-img-hero-center"
+						style="background-image: url({{root}}/assets/img/mockups/img33.jpg);">
+						<div class="space-5">
+						</div>
+					</div>
+					<div class="js-slide bg-img-hero-center"
+						style="background-image: url({{root}}/assets/img/mockups/img22.jpg);">
+						<div class="space-5">
+						</div>
+					</div>
+				</div>
+
+				<div class="row justify-content-center align-items-md-start space-top-3">
+					<div class="col-md-12 text-center mb-7 mb-md-5 mt-3">
+						<h2 class="text-dark mb-5">Treba vam pomoć? <span class="font-weight-semi-bold">Imate
+								upit?</span></h2>
+					</div>
+
+					<div class="col-md-12 mt-md-auto text-left">
+						<!-- Contacts Form -->
+						<form class="js-validate" id="contact-form-graphic" enctype="multipart/form-data">
+
+
+							<div class="row">
+
+								<!-- Input -->
+								<div class="col-sm-6 mb-6">
+									<div class="js-form-message">
+										<label class="form-label text-dark" for="firm">
+											Naziv firme
+										</label>
+
+										<input type="text" class="form-control" id="firm" name="firm" placeholder="Microsoft"
+											aria-label="Firma" required data-msg="Molimo ukucajte ime vase firme"
+											data-error-class="u-has-error" data-success-class="u-has-success">
+									</div>
+								</div>
+								<!-- End Input -->
+
+								<!-- Input -->
+								<div class="col-sm-6 mb-6">
+									<div class="js-form-message">
+										<label class="form-label text-dark" for="pib">
+											PIB
+										</label>
+
+										<input type="number" class="form-control" id="pib" name="pib" placeholder="123456789"
+											aria-label="pib" required data-msg="Molimo ukucajte vas PIB" data-error-class="u-has-error"
+											data-success-class="u-has-success">
+									</div>
+								</div>
+								<!-- End Input -->
+
+								<div class="w-100"></div>
+
+								<!-- Input -->
+								<div class="col-sm-6 mb-6">
+									<div class="js-form-message">
+										<label class="form-label text-dark" for="name">
+											Ime i prezime
+											<span class="text-danger">*</span>
+										</label>
+
+										<input type="text" class="form-control" id="name" name="name" placeholder="Petar Petrovic"
+											aria-label="Firma" required data-msg="Molimo ukucajte ime vase firme"
+											data-error-class="u-has-error" data-success-class="u-has-success">
+									</div>
+								</div>
+								<!-- End Input -->
+
+								<!-- Input -->
+								<div class="col-sm-6 mb-6">
+									<div class="js-form-message">
+										<label class="form-label text-dark" for="phone">
+											Broj telefona
+											<span class="text-danger">*</span>
+										</label>
+
+										<input type="number" class="form-control" id="phone" name="phone" placeholder="0641234567"
+											aria-label="1-800-643-4500" required data-msg="Unesite validan broj telefona"
+											data-success-class="u-has-success">
+									</div>
+								</div>
+								<!-- End Input -->
+
+								<!-- Input -->
+								<div class="col-sm-6 mb-6">
+									<div class="js-form-message">
+										<label class="form-label text-dark" for="address">
+											Adresa
+											<span class="text-danger">*</span>
+										</label>
+
+										<input type="text" class="form-control" id="address" name="address"
+											placeholder="Bulevar Patrijarha Pavla 12a" aria-label="Adresa" required
+											data-msg="Molimo ukucajte vašu adresu stanovanja" data-error-class="u-has-error"
+											data-success-class="u-has-success">
+									</div>
+								</div>
+								<!-- End Input -->
+
+								<!-- Input -->
+								<div class="col-sm-6 mb-6">
+									<div class="js-form-message">
+										<label class="form-label text-dark" for="email">
+											Email adresa
+											<span class="text-danger">*</span>
+										</label>
+
+										<input type="text" class="form-control" id="email" name="email" placeholder="petar@petrovic.com"
+											aria-label="Adresa" required data-msg="Molimo ukucajte vašu imejl adresu"
+											data-error-class="u-has-error" data-success-class="u-has-success">
+									</div>
+								</div>
+								<!-- End Input -->
+							</div>
+
+
+							<div class="row mt-5">
+								<div class="col-sm-12">
+									<h4 class="text-dark mb-5 text-center">Opis posla</h4>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 mb-6">
+									<div class="js-form-message">
+										<label class="form-label text-dark" for="product">
+											Naziv proizvoda
+											<span class="text-danger">*</span>
+										</label>
+
+										<input type="text" class="form-control" id="product" name="product"
+											placeholder="Vizit karte, flajeri, brosure..." aria-label="Adresa" required
+											data-msg="Molimo unesite ime proizvoda" data-error-class="u-has-error"
+											data-success-class="u-has-success">
+									</div>
+								</div>
+							</div>
+
+							<!-- Input -->
+							<div class="js-form-message mb-6">
+								<label class="form-label text-dark" for="message">
+									Detaljan opis štampe i dorade
+									<span class="text-danger">*</span>
+								</label>
+
+								<div class="input-group">
+									<textarea class="form-control" rows="4" id="message" name="message"
+										placeholder="Vrsta i gramatura papira, obostrana ili jednostrana štampa, kolor ili crno bela štampa, plastifikacija, lepljenje, numeracija, lakiranje, sečenje, bigovanje..."
+										aria-label="Hi there, I would like to ..." required data-msg="Please enter a reason."
+										data-error-class="u-has-error" data-success-class="u-has-success"></textarea>
+								</div>
+							</div>
+
+
+							<!-- End Input -->
+							<div class="text-center">
+								<button type="submit" class="btn btn-primary btn-wide transition-3d-hover mb-4">Pošalji</button>
+							</div>
+
+							<div class="messages"></div>
+
+						</form>
+						<!-- End Contacts Form -->
+					</div>
+				</div>
+			</div>
+
+
+			<div id="stickyBlockStartPoint" class="offset-1 col-lg-4">
+				<!-- Sticky Block -->
+				<div class="js-sticky-block pl-lg-4" data-parent="#stickyBlockStartPoint" data-sticky-view="lg"
+					data-start-point="#stickyBlockStartPoint" data-end-point="#stickyBlockEndPoint" data-offset-top="125"
+					data-offset-bottom="">
+					<!-- Pricing -->
+					<div class="position-relative bg-primary shadow-primary-lg text-white rounded z-index-2 p-7">
+						<span class="d-block">
+							<h3 class="font-weight-medium text-white">Grafički dizajn</h3>
+
+						</span>
+
+						<hr class="opacity-md my-4">
+
+						<div class="mb-5">
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Logo dizajn</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Korporativni identitet</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn vizit karti</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn memoranduma</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn bilborda</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn plakata</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn flajera</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn kataloga</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn brošura i prospekta</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn menija</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn etiketa</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn ambalaža</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn CD omota</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn i prelom knjiga</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn majica</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn banera</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Brendiranje vozila</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn čestitki</p>
+
+							<p class="text-white mb-0" data-animation="fadeInUp" data-animation-delay="800"
+								data-animation-duration="1500">Dizajn kalendara</p>
+						</div>
+
+						<a class="btn btn-white btn-pill transition-3d-hover mb-2" href="{{root}}stamparija/kontakt.html">
+							Kontaktirajte nas
+							<span class="fas fa-arrow-right text-primary font-size-1 ml-2"></span>
+						</a>
+						<!-- SVG Shape -->
+						<div class="position-absolute bottom-0 right-0 w-100 max-width-15 z-index-n1">
+							<figure class="ie-abstract-shapes-11">
+								<img class="js-svg-injector rounded-bottom" src="{{root}}assets/svg/components/abstract-shapes-11.svg"
+									alt="Image Description" data-parent="#pricingSection">
+							</figure>
+						</div>
+						<!-- End SVG Shape -->
+					</div>
+					<!-- End Pricing -->
+				</div>
+				<!-- End Sticky Block -->
+			</div>
+		</div>
+
+	</div>
+	<!-- End Description Section -->
+	<div id="stickyBlockEndPoint"></div>
+	<!-- Sticky Block End Point -->
+
+	<!-- Services Section -->
+	<div class="container space-bottom-2 space-top-2">
+		<div class="row">
+			<div class="col-lg-4 mb-3 mb-lg-0">
+				<!-- Card -->
+				<a href="../stamparija/"
+					class="card border-0 bg-primary text-white shadow overflow-hidden transition-3d-hover px-4 pt-3 pb-2">
+					<div class="w-100 pr-2">
+						<span class="small text-white-50">Usluge</span>
+						<h4 class="h4 font-weight-medium">Štamparija</h4>
+
+					</div>
+					<div class="position-absolute w-65 mb-n3 mr-n4" style="bottom: -10px; right: -20px;">
+						<img class="img-fluid" src="{{root}}assets/img/mockups/stamparija.png" alt="Image Description">
+					</div>
+
+				</a>
+				<!-- End Card -->
+			</div>
+
+			<div class="col-lg-4 mb-3 mb-lg-0">
+				<!-- Card -->
+				<a href="../web-razvoj/"
+					class="card border-0 bg-warning text-dark shadow overflow-hidden transition-3d-hover px-4 pt-3 pb-2">
+					<div class="w-100 pr-2">
+						<span class="small text-dark-50">Usluge</span>
+						<h4 class="h4 font-weight-medium">Web Razvoj</h4>
+
+					</div>
+					<div class="position-absolute right-0 w-50 mb-n3 mr-n4" style="bottom: -20px">
+						<img class="img-fluid" src="{{root}}assets/img/mockups/web-2.png" alt="Image Description">
+					</div>
+				</a>
+				<!-- End Card -->
+			</div>
+
+			<div class="col-lg-4">
+				<!-- Card -->
+				<a href="../fotografija/"
+					class="card border-0 bg-success text-white shadow overflow-hidden transition-3d-hover px-4 pt-3 pb-2">
+					<div class="w-100 pr-2">
+						<span class="small text-white-50">Usluge</span>
+						<h4 class="h4 font-weight-medium">Fotografija</h4>
+
+					</div>
+					<div class="position-absolute right-0 w-50 mb-n3 mr-n4" style="bottom: -20px">
+						<img class="img-fluid" src="{{root}}assets/img/mockups/photo.png" alt="Image Description">
+					</div>
+				</a>
+				<!-- End Card -->
+			</div>
+
+
+		</div>
+	</div>
+	<!-- End Services Section -->
+
+</main>
+<!-- ========== END MAIN ========== -->

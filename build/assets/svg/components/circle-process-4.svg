@@ -1,0 +1,11 @@
+<svg id="circle-process-4" xmlns="http://www.w3.org/2000/svg" width="180" height="161.19" viewBox="0 0 180 161.19">
+  <path id="Path_1" data-name="Path 1" d="M35.5,160.4a89.035,89.035,0,1,1,110.2-1" fill="none" stroke="#ffa237" stroke-miterlimit="10" stroke-width="2" opacity="0.1"/>
+  <g id="Group_1" data-name="Group 1">
+    <path id="Path_2" data-name="Path 2" d="M5.8,64.1a3,3,0,1,1,0-6,3,3,0,0,1,0,6Z" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M5.8,59.2a2,2,0,1,1-2,2,2.006,2.006,0,0,1,2-2m0-2a4,4,0,1,0,4,4,3.949,3.949,0,0,0-4-4Z" fill="#ffb637"/>
+  </g>
+  <g id="Group_2" data-name="Group 2" opacity="0.1">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="28.6" cy="28.6" r="28.6" transform="translate(61.8 61)" fill="#fff"/>
+    <path id="Path_4" data-name="Path 4" d="M90.4,76A13.6,13.6,0,1,1,76.8,89.6,13.614,13.614,0,0,1,90.4,76m0-30A43.6,43.6,0,1,0,134,89.6,43.574,43.574,0,0,0,90.4,46Z" fill="#ffa837"/>
+  </g>
+</svg>

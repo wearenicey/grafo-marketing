@@ -1,0 +1,17 @@
+.preload-bg {
+  background: radial-gradient(#ffffff, rgba(238, 238, 238, 0.8));
+  height: 100%;
+  width: 100%;
+  z-index: 1010;
+  position: fixed;
+}
+
+.logo {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+
+}

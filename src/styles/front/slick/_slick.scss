@@ -1,0 +1,25 @@
+/*------------------------------------
+  Slick
+------------------------------------*/
+
+.slick-shadow {
+  box-shadow: 1px 16px 36px -14px rgba(0, 0, 0, 0.3);
+}
+
+.u-slick {
+  position: relative;
+}
+
+// Disable transform effect
+.u-slick--transform-off {
+  &.slick-transform-off .slick-track {
+    transform: none !important;
+  }
+}
+
+// Thumb Progress
+.u-slick-thumb-progress {
+  width: 110%;
+  height: 110%;
+  @include content-centered;
+}

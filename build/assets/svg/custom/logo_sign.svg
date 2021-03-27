@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125.642" height="125.262" viewBox="0 0 125.642 125.262">
+  <g id="logo_sign" transform="translate(-322.984 -359.105)">
+    <path id="nine" d="M340.081,455.142H316.548a13.228,13.228,0,0,1-2.249-.177,9.106,9.106,0,0,1-3.935-1.559,9,9,0,0,1-3.358-4.478L301.559,432.9Z" transform="translate(84.27 29.226)" fill="#003b72" fill-rule="evenodd"/>
+    <path id="eight" d="M364.356,455.141H340.079L301.559,432.9h54.186Z" transform="translate(84.27 29.226)" fill="#5b2676" fill-rule="evenodd"/>
+    <path id="seven" d="M349.712,440.137H321.019l-.588-1.718-3.578-10.6,22.966-13.256Z" transform="translate(90.303 21.991)" fill="#9b1f70" fill-rule="evenodd"/>
+    <path id="six" d="M341.3,423.222l-22.965,13.252L313.1,420.92l16.347-28.309Z" transform="translate(88.821 13.333)" fill="#df0f69" fill-rule="evenodd"/>
+    <path id="five" d="M318.721,365.853c-1.99-3.932-4.78-6.831-11.87-6.831h-5.306v26.966l16.111,48.184L334,405.86Z" transform="translate(84.265 0.084)" fill="#e94457" fill-rule="evenodd"/>
+    <path id="four" d="M310.316,359.022H305.5c-7.831,0-10.422,3.428-12.466,8.132l-2.231,6.264L278.27,405.813l16.346,28.324,16.111-48.149V359.022Z" transform="translate(75.083 0.084)" fill="#f77e10" fill-rule="evenodd"/>
+    <path id="three" d="M297.969,420.9l-5.238,15.568L269.77,423.211l11.853-30.634Z" transform="translate(71.73 13.319)" fill="#cbd327" fill-rule="evenodd"/>
+    <path id="two" d="M295.531,427.8l-2.271,6.711-1.9,5.625H262.668l9.9-25.595Z" transform="translate(68.929 21.985)" fill="#78ad2f" fill-rule="evenodd"/>
+    <path id="one" d="M293.8,432.9l-.038.1-5.39,15.926a8.652,8.652,0,0,1-1.77,2.871l-.01.01a11.528,11.528,0,0,1-1.549,1.421,8.666,8.666,0,0,1-3.891,1.717,10.807,10.807,0,0,1-2.166.192h-22.5l8.615-22.239Z" transform="translate(66.493 29.225)" fill="#2c8f36" fill-rule="evenodd"/>
+  </g>
+</svg>

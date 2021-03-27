@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="56" height="56" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon-65a" transform="translate(-971 -740)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(971 740)" clip-path="url(#clip-path)">
+      <g id="icon-65a-2" data-name="icon-65a" transform="translate(5.12 2.622)">
+        <g id="Group_63" data-name="Group 63" transform="translate(5.715 10.742)">
+          <path id="Path_122" data-name="Path 122" d="M183.562,291.312a16.955,16.955,0,1,1-16.954-16.956A16.954,16.954,0,0,1,183.562,291.312Z" transform="translate(-149.652 -274.356)" fill="#dee2e8"/>
+        </g>
+        <g id="Group_64" data-name="Group 64" transform="translate(5.384 10.41)">
+          <path id="Path_123" data-name="Path 123" d="M183.4,291.148h-.331a16.623,16.623,0,1,1-4.869-11.755,16.565,16.565,0,0,1,4.869,11.755h.663a17.286,17.286,0,1,0-17.286,17.286,17.288,17.288,0,0,0,17.286-17.286Z" transform="translate(-149.157 -273.86)" fill="#2562a2"/>
+        </g>
+        <g id="Group_66" data-name="Group 66" transform="translate(0 5.026)">
+          <path id="Path_127" data-name="Path 127" d="M184.465,288.487h-1.989A18.693,18.693,0,1,1,177,275.268a18.624,18.624,0,0,1,5.476,13.219h3.977a22.67,22.67,0,1,0-6.64,16.03,22.612,22.612,0,0,0,6.64-16.03Z" transform="translate(-141.112 -265.815)" fill="#2562a2"/>
+        </g>
+        <g id="Group_67" data-name="Group 67" transform="translate(20.341 2.396)">
+          <rect id="Rectangle_1" data-name="Rectangle 1" width="4.661" height="4.795" fill="#2562a2"/>
+        </g>
+        <g id="Group_68" data-name="Group 68" transform="translate(5.864 5.463)">
+          <path id="Rectangle_2" data-name="Rectangle 2" d="M1.249,0H3.411A1.251,1.251,0,0,1,4.662,1.251V3.545A1.249,1.249,0,0,1,3.413,4.794H1.248A1.248,1.248,0,0,1,0,3.546v-2.3A1.249,1.249,0,0,1,1.249,0Z" transform="translate(0 2.918) rotate(-38.744)" fill="#2562a2"/>
+        </g>
+        <g id="Group_69" data-name="Group 69" transform="translate(18.373 0)">
+          <path id="Path_128" data-name="Path 128" d="M175.962,258.3h-6.2a1.2,1.2,0,1,0,0,2.4h6.2a1.2,1.2,0,1,0,0-2.4Z" transform="translate(-168.567 -258.305)" fill="#2562a2"/>
+        </g>
+      </g>
+    </g>
+    <text id="_24h" data-name="24h" transform="translate(986 775)" fill="#2562a2" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">24h</tspan></text>
+  </g>
+</svg>

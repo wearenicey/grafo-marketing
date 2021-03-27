@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^grafomarketing.online [NC]
+RewriteRule ^(.*)$ https://www.grafomarketing.online/$1 [L,R=301]
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/grafomar/public_html/upit"
+PassengerBaseURI "/"
+PassengerNodejs "/home/grafomar/nodevenv/public_html/upit/12/bin/node"
+PassengerAppType node
+PassengerStartupFile mail.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

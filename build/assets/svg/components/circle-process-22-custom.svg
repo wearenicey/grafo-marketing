@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="161.85" viewBox="0 0 180 161.85">
+  <g id="circle-process-22-custom" transform="translate(-604.7 -517.5)">
+    <g id="Group_10" data-name="Group 10" transform="translate(575.4 483)" opacity="0.12">
+      <path id="Path_12" data-name="Path 12" d="M119.475,46a72.675,72.675,0,1,0,72.675,72.675A72.632,72.632,0,0,0,119.475,46Z" transform="translate(0 5)"/>
+    </g>
+    <path id="Path_9" data-name="Path 9" d="M35.5,160.4a89.035,89.035,0,1,1,110.2-1" transform="translate(604.7 517.5)" fill="none" stroke="#5fdeff" stroke-miterlimit="10" stroke-width="2" opacity="0.29"/>
+    <g id="Group_5" data-name="Group 5" transform="translate(607.2 484.8)">
+      <path id="Path_10" data-name="Path 10" d="M13.55,79.6a10.75,10.75,0,1,1,0-21.5,10.75,10.75,0,1,1,0,21.5Z" transform="translate(0 0)" fill="#5fdeff"/>
+      <path id="Path_11" data-name="Path 11" d="M13.55,63.075A5.875,5.875,0,1,1,7.675,68.95a5.892,5.892,0,0,1,5.875-5.875m0-5.875A11.75,11.75,0,1,0,25.3,68.95,11.6,11.6,0,0,0,13.55,57.2Z" transform="translate(0 0)" fill="#5fdeff"/>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(635.2 466.8)">
+      <path id="Path_6" data-name="Path 6" d="M9.8,72.1a7,7,0,1,1,0-14,7,7,0,1,1,0,14Z" transform="translate(0 0)" fill="#5fdeff"/>
+      <path id="Path_7" data-name="Path 7" d="M9.8,61.2a4,4,0,1,1-4,4,4.012,4.012,0,0,1,4-4m0-4a8,8,0,1,0,8,8,7.9,7.9,0,0,0-8-8Z" transform="translate(0 0)" fill="#5fdeff"/>
+    </g>
+  </g>
+</svg>

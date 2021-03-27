@@ -1,0 +1,198 @@
+/*------------------------------------
+  File for your custom SCSS style
+------------------------------------*/
+
+// Color text primary dark
+
+body {
+  color: $gray-900 !important;
+}
+
+.text-primary-dark {
+  color: $blue-darker;
+}
+
+/* Mega Menu Products */
+/* Product Banner */
+.u-header__product-banner {
+
+  &-title {
+    color: $dark !important;
+  }
+
+  &-text {
+    color: $dark !important;
+    opacity: 0.7;
+  }
+}
+
+/* Landing Icons */
+.btn-icon {
+  &__inner {
+    &-bottom-minus {
+      //top: 80%;
+      top: 60% !important;
+    }
+  }
+}
+
+
+.index-footer {
+  div {
+    div {
+      div {
+        p {
+          @include media-breakpoint-down(md) {
+            color: white;
+            text-align: center;
+          }
+        }
+      }
+
+      div {
+        @include media-breakpoint-down(md) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+
+.circle-shadow {
+  border-radius: 100%;
+  box-shadow: 0px 12px 32px -2px rgba(0, 0, 0, 0.02), 0px 24px 64px rgba(0, 0, 0, 0.1), 0px 4px 16px rgba(0, 0, 0, 0.02);
+}
+
+/* Logo Size - Header */
+
+#introLogo {
+  width: 23rem;
+
+  @include media-breakpoint-down(md) {
+    width: 18rem;
+  }
+}
+
+.u-header__navbar-brand {
+  width: 14rem;
+  @include media-breakpoint-down(sm) {
+    width: 10rem;
+  }
+}
+
+.nav-classic {
+  border: 0;
+}
+
+/* Sidebar Navigation */
+
+.dropdown-nav-link {
+  font-weight: 400;
+}
+
+.list-nav-button {
+  background-color: $blue;
+  border-radius: 0;
+  font-weight: 500;
+}
+
+.slideSidebar {
+  opacity: 1 !important;
+  display: block !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#proizvodi-navs {
+  //   .nav-item {
+  //     padding-top: 1rem;
+  //     padding-bottom: 1rem;
+  //   }
+  .nav-item {
+    .nav-link.active {
+      background-color: $primary !important;
+      color: #fff !important;
+
+      &::before {
+        content: none !important;
+      }
+    }
+  }
+}
+
+/* Stampani Materijal Sidebar */
+#stampaniSidebar {
+  .nav-link {
+    padding: 0.125rem 1rem !important;
+    transition: .2s all;
+
+    &:hover {
+      background-color: $blue;
+      color: white;
+      padding: 1rem;
+      transition: .2s all;
+    }
+  }
+
+  .u-header__sub-menu-nav-link {
+    font-size: 1rem !important;
+  }
+}
+
+/* Fix za mobilni carousel razmak od header */
+@media (max-width: 575px) {
+  .space-top-xs-2 {
+    padding-top: 2rem;
+  }
+}
+
+#proizvodiSidebar {
+  .list-group-item {
+    font-size: 1rem !important;
+  }
+}
+
+// Lista na index
+.list-group-item-light {
+  color: $gray-800 !important;
+  background-color: white !important;
+
+  &:hover {
+    background-color: $primary !important;
+    color: $white !important;
+    padding-left: 1rem !important;
+  }
+}
+
+// Hover
+.hover {
+  transition: .4s;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    transform: translateY(-12px);
+    transition: 250ms all;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+// Lists bug
+.media {
+  align-items: flex-start !important;
+}
+
+//.navbar-expand-md .u-header__mega-menu-wrapper {
+//
+//  @include media-breakpoint-up(md) {
+//    background-image: url("./../img/arrow.png");
+//    background-position: 10px 75%;
+//    background-repeat: no-repeat;
+//    background-size: 12px;  }
+//}
+
