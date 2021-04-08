@@ -72,7 +72,7 @@ gulp.task('compile-html', function () {
         'web-razvoj': 'web-razvoj',
         // english
         'en\\printing': 'printing',
-        // 'en\\printing\\products': 'products',
+        'en\\printing\\products': 'products',
         'en\\printing\\products\\flyers': 'products',
         'en\\printing\\products\\business-cards': 'products',
         'en\\printing\\career-opportunities': 'printing',
