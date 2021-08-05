@@ -15,7 +15,7 @@ var gulp = require('gulp'),
   imageminJpegRecompress = require('imagemin-jpeg-recompress'),
   pngquant = require('imagemin-pngquant'),
   browserSync = require('browser-sync').create();
-panini = require('panini');
+  panini = require('panini');
 
 
 //
