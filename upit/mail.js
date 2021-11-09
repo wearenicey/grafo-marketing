@@ -9,8 +9,9 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-// app.use(express.static(path.join(__dirname, "/public")));
-app.use(express.static('../build'))
+
+app.use(express.static(path.join(__dirname, "/public")));
+// app.use(express.static('../build'))
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -76,7 +77,7 @@ app.post('/job', upload.single('cv'), function (req, res, next) {
 
 
     let transporter = nodemailer.createTransport({
-        host: 'mail.grafomarketing.online',
+        host: 'ftp.e70.digital',
         port: 465,
         secure: true,
         auth: {
